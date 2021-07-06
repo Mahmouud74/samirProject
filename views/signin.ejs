@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>SPORT ANGLE</title>
+</head>
+<body class="intro">
+
+
+    <div class="container text-center my-5 ">
+        <div class="user my-3">
+            <i class="fas fa-user-secret user-icon"></i>
+            <h4 class="login text-light">Login</h4>
+        </div>
+        <div class="card p-5 w-50 m-auto form-cont ">
+            <form method="POST" action="/handleSignIn">
+                <input class="form-control" placeholder="Enter your email" type="text" name="email" value="<%=oldInputs.email %>">
+                <% if (errors.find(e=>e.param=='email Incorrect')) { %>
+                    <div class="alert alert-danger my-3 text-center">
+                        incorrect Email
+                    </div>
+                    <% } %>
+                <input class="form-control my-4 " placeholder="Enter your Password" type="password" name="password">
+                <% if (errors.find(e=>e.param=='password Incorrect')) { %>
+                    <div class="alert alert-danger my-3 text-center">
+                        incorrect Password
+                    </div>
+                    <% } %>
+                <button class="btn btn-dark btn-default-outline my-4 w-100 rounded">Login</button>
+                <a class="btn btn-default-outline btn-dark" href="/">Register</a>
+            </form>
+        </div>
+    </div>
+
+    <!--------------------------------------------- End knowledge------------------------------------------------->
+    <!--------------------------------------------- Start footer ------------------------------------------------->
+    <footer>
+        <div class="container pt-4 text-right">
+            <div class="row mt-3">
+                <div class="col-lg-4">
+                    <h5 class="text-center">من نحن</h5>
+                    <div class="hr my-2"></div>
+                    <p class="p-2">متجر Sport Angle  يوفرلك منتجات الاندية المصرية والاوربية الاصلية 100% ونوفر التوصيل لجميع المحافظات داخل جمهورية مصر العربية</p>
+                </div>
+                <div class="col-lg-4">
+                    <h5 class="text-center">روابط مهمة</h5>
+                    <div class="hr my-2"></div>
+                    <a href="privacy.html">الخصوصية</a>
+                    <div class="hr my-2"></div>
+                    <a href="support.html">الدعم</a>
+                    <div class="hr my-2"></div>
+                    <a href="advice.html">ارشادات الغسيل والكوي</a>
+                </div>
+                <div class="col-lg-4">
+                    <h5 class="text-center">تابعنا علي </h5>
+                    <div class="hr my-2"></div>
+                        <div class="icons text-center d-flex justify-content-center">
+                            <div class="footer-icons facebook"><a href="https://www.facebook.com/Sport-Angle-104573691888659/"><i class="fab fa-facebook-f"></i></a></div>
+                            <div class="footer-icons instagram"><a href="https://www.instagram.com/p/CQuVgEwH7O3/?utm_medium=share_sheet"><i class="fab fa-instagram"></i></a></i></div>
+                           </div>
+                </div>   
+            </div>
+            <div class="hr my-2"></div>
+            <div class="m-auto text-center p-3">
+                <p class="text-muted"> &copy;جميع الحقوق محفوظة Sprot Angle 2021 </p>
+            </div>
+        </div>
+    </footer>
+    <!--------------------------------------------- End footer ------------------------------------------------->
+    <script src="/js/jquery-3.4.1.slim.min.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>

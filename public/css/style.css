@@ -1,0 +1,287 @@
+*{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*----------------------- start header info ----------------------*/
+header{
+    font-size: 14px;
+    background-color: black;
+}
+.backimg{
+    font-size: 14px;
+    background-image: url(../images/shutterstock-563980456.png);
+    height: 100vh;
+    background-size: cover;
+}
+.header-backimg{
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 100vh;
+}
+header .hr , footer .hr , .knowledge .hr{
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 100%;
+    height: 1px;
+}
+.header_info i{
+    color: rgba(247, 250, 13, 0.6);
+    padding: 0 5px;
+}
+.header_info a .shopping{
+    color: rgb(247, 250, 13);
+    padding: 0 10px;
+    font-size: 24px;
+}
+/*----------------------- End header info ----------------------*/
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+/*----------------------- Start header navbar ----------------------*/
+.header_nav  i {
+    color: rgb(110, 110, 110);
+}
+.header_nav .nav-item:hover
+{
+    background-color:rgb(247, 250, 13);
+    transition: 0.3s all;
+}
+/*----------------------- End header navbar ----------------------*/ 
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*----------------------- Start Privacy ----------------------*/ 
+.privacy , .support , .advice{
+    background-image: url(../images/light_dot.jpg);
+    width: 100%;
+    direction: rtl;
+}
+.privacy-caption .support-caption , .advice-caption{
+    width: 100%;
+}
+/*----------------------- End Privacy ----------------------*/ 
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*----------------------- Start blog ----------------------*/ 
+.bolg , .clubs , .about {
+    background-image: url(../images/dark_dot.jpg);
+    color: white;
+    direction: rtl
+}
+.blog-caption{
+    transition: all 0.2s;
+}
+.blog-caption:hover{
+    box-shadow: 3px 3px 10px rgba(247, 250, 13, 0.6);
+    position: relative;
+    bottom: 5px;
+}
+/*----------------------- End blog ----------------------*/ 
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*----------------------- Start clubs ----------------------*/ 
+.clubs-caption
+{
+    transition: all 0.2s;
+}
+.clubs-caption:hover{
+    box-shadow: 3px 3px 10px rgba(247, 250, 13, 0.6);
+    position: relative;
+    bottom: 5px;
+}
+/*----------------------- End clubs ----------------------*/ 
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*----------------------- Start alahly ----------------------*/ 
+.alahly {
+    background-image: url(../images/background-about.jpg);
+}
+.alahly p, i , h2 , .brands {
+    color: rgb(168, 168, 168);
+}
+.alahly .product h4 , .product-items h4{
+        color: white;
+}
+.alahly .product p ,.product-items p {
+    color: rgba(247, 250, 13, 0.6);
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+.alahly .product:hover{
+    box-shadow: 3px 3px 10px rgba(247, 250, 13, 0.6);
+    position: relative;
+    bottom: 5px;
+    transition: 0.2s;
+}
+.product-items:hover
+{ box-shadow: 3px 3px 10px rgba(247, 250, 13, 0.6);
+    position: relative;
+    bottom: 5px;
+    transition: 0.2s;
+}
+.product-alahly{
+    background-image:url(../ayman-12-600ecd1c2784b.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+
+}
+.section-bg{
+    background-color: rgba(0, 0, 0, 0.9);
+    direction: rtl;
+}
+/*----------------------- End alahly ----------------------*/
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*------------------------- start brands--------------------------*/
+.brands{
+    background-image: url(../images/background-about.jpg);
+    direction: rtl
+}
+.brands-caption{
+    transition: 0.2s;
+}
+.brands-caption:hover{
+    box-shadow: 3px 3px 10px rgba(247, 250, 13, 0.6);
+    position: relative;
+    bottom: 5px;
+}
+/*------------------------- end brands--------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*------------------------- start blog-advice--------------------------*/
+.blog-advice{
+    background-image: url(../images/background-about.jpg);
+}
+.blog-advice-caption{
+    color: rgb(160, 160, 160);
+}
+/*------------------------- End blog-advice--------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*------------------------- End shopping--------------------------*/
+.shopping-items{
+    background-image: url(../images/light_dot.jpg);
+    width: 100%;
+    
+}
+.shopping-items i{
+    font-size: 8rem;
+    padding:10px 0px;
+}
+/*------------------------- End shopping--------------------------*/
+.League{
+    background-image: url(../images/egyptian\ league.png);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-color: rgba(0, 0, 0, 0.5);
+    direction: rtl;
+    border:  1px solid rgba(110, 110, 110,0.3);
+}
+.Egyptian-League{
+    color: white;
+}
+.Egyptian-League p{
+    color:rgb(247, 250, 13) ;
+    
+}
+.Egyptian-League:hover{
+    box-shadow: 3px 3px 10px rgba(247, 250, 13, 0.6); 
+    position: relative;
+    bottom: 5px;
+}
+.League-euro{
+    background-image: url(../images/دوري\ أبطال\ أوروپا.png);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-color: rgba(0, 0, 0, 0.5);
+    direction: rtl;
+    border:  1px solid rgba(110, 110, 110,0.3);
+}
+.cham-League{
+    color: white;
+}
+.cham-League p{
+    color:rgb(247, 250, 13) ;
+    
+}
+.cham-League:hover{
+    box-shadow: 3px 3px 10px rgba(247, 250, 13, 0.6); 
+    position: relative;
+    bottom: 5px;
+}
+.sp-league{
+    background-color: rgba(0, 0, 0, 0.9);
+    background-image: url(../images/soccer-player-attack_336913-91.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:center center ;
+}
+.inner{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.knowledge
+{
+    background-image: url(../images/ليج66.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.knowledge-caption{
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+
+
+
+
+
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*----------------------- Start footer ----------------------*/ 
+footer{
+    background-image: url(../images/dark_dot.jpg);
+    direction: rtl;
+    width: 100%;
+    color: white;
+}
+footer a{
+    color: white;
+    transition: 0.5s;
+}
+footer a:hover{
+    color: rgb(247, 250, 13);
+}
+footer i{
+    color: rgba(247, 250,13, 0.6);
+    padding: 0 5px;
+}
+.footer-icons i , .facebook , .instagram , .twitter , .linkedin{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 50%;
+    align-items: center;
+}
+.footer-icons i {
+    font-size: 24px;
+    text-align: center;
+    line-height: 40px;
+    transition: 0.4s all;
+}
+.facebook:hover i{
+    color: white;
+    background-color: #1877F2;
+}
+.instagram:hover i{
+    color: white;
+    background-color: #E4405F;
+}
+.twitter:hover i{
+    color: white;
+    background-color: #1DA1F2;
+}
+.linkedin:hover i{
+    color: white;
+    background-color: #0A66C2;
+}
+.intro{
+    background-image: url(/images/dark_dot.jpg);
+}
+.form-cont{
+    background-color: rgba(251, 255, 0, 0.5);;
+}
+/*----------------------- End footer ----------------------*/ 
