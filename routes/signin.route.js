@@ -45,4 +45,58 @@ signin.get('/home/blog-advice2',(req,res)=>{
 signin.get('/home/blog-advice3',(req,res)=>{
     res.render('blog-advice3.ejs')
 })
+signin.get('/home/alahly-buy',(req,res)=>{
+    res.render('alahly-buy.ejs')
+})
+signin.get('/home/alasma3ily-buy',(req,res)=>{
+    res.render('alasma3ily-buy.ejs')
+})
+signin.get('/home/almuqawlun-buy',(req,res)=>{
+    res.render('almuqawlun-buy.ejs')
+})
+signin.get('/home/pyramids-buy',(req,res)=>{
+    res.render('pyramids-buy.ejs')
+})
+signin.get('/home/clubs/Barca',(req,res)=>{
+    res.render('barcelona.ejs')
+})
+signin.get('/home/clubs/Barca/barcelona-product',(req,res)=>{
+    res.render('barcelona-product.ejs')
+})
+signin.get('/home/clubs/juve',(req,res)=>{
+    res.render('juve.ejs')
+})
+signin.get('/home/clubs/juve/juve-product',(req,res)=>{
+    res.render('juve-product.ejs')
+})
+signin.get('/home/clubs/bayern',(req,res)=>{
+    res.render('bayern.ejs');
+})
+signin.get('/home/clubs/bayern/bayern-product',(req,res)=>{
+    res.render('bayern-product.ejs');
+})
+signin.get('/home/paris-buy',(req,res)=>{
+    res.render('baris-buy.ejs')
+})
+signin.get('/home/barcelona-buy',(req,res)=>{
+    res.render('barcelona-buy.ejs')
+})
+signin.get('/home/juve-buy',(req,res)=>{
+    res.render('juve-buy.ejs');
+})
+signin.get('/home/real-buy',(req,res)=>{
+    res.render('real-buy.ejs')
+})
+signin.get('/home/brands/umbro',(req,res)=>{
+    res.render('umbro.ejs')
+})
+signin.get('/home/brands/new-balance',(req,res)=>{
+    res.render('new-balance.ejs')
+})
+signin.get('/home/barnds/adidas',(req,res)=>{
+    res.render('adidas.ejs')
+})
+signin.get('/home/brands/nike',(req,res)=>{
+    res.render('nike.ejs')
+})
 module.exports=signin;

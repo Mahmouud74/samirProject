@@ -119,6 +119,21 @@ header .hr , footer .hr , .knowledge .hr{
     background-position: center left;
 
 }
+.product-barcelona{
+    background-image:url(../images/product/برشلونه/messi.png);
+    background-repeat: no-repeat;
+    background-position: top ;
+}
+.product-juve{
+    background-image:url(../images/product/يوفي/1547069465Juventus-Cristiano-Ronaldo-Png-Football.png);
+    background-repeat: no-repeat;
+    background-position: right ;
+}
+.product-bayern{
+    background-image:url(../images/product/بايرن/levando.png);
+    background-repeat: no-repeat;
+    background-position: top center ;
+}
 .section-bg{
     background-color: rgba(0, 0, 0, 0.9);
     direction: rtl;
@@ -164,7 +179,7 @@ header .hr , footer .hr , .knowledge .hr{
     background-image: url(../images/egyptian\ league.png);
     background-repeat: no-repeat;
     background-size: 10%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(51, 51, 51, 0.5);
     direction: rtl;
     border:  1px solid rgba(110, 110, 110,0.3);
 }
@@ -209,8 +224,38 @@ header .hr , footer .hr , .knowledge .hr{
 }
 .inner{
     background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
 }
-
+.sp-league .animat{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    animation-name: down;
+    animation-duration: 10s;
+    animation-iteration-count:infinite ;
+}
+.animat img{
+    width: 75%;
+}
+@keyframes down
+{
+    0%{bottom:0px;}
+    10%{bottom: 50%;}
+    20%{bottom: 10%;}
+    30%{bottom: 40%;}
+    40%{bottom: 5%;}
+    50%{bottom: 30%;}
+    60%{bottom: 0%;}
+    70%{bottom: 20%;}
+    80%{bottom: 0%;}
+    90%{bottom: 10%;}
+    100%{bottom: 0%;}
+}
 .knowledge
 {
     background-image: url(../images/ليج66.jpg);
@@ -223,9 +268,17 @@ header .hr , footer .hr , .knowledge .hr{
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-
-
-
+.alahly-buy{
+    background-image: url(../images/dark_dot.jpg);
+}
+.alahly-buy p{
+    color:rgb(247, 250, 13) ;
+}
+.buy {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
 
 
 
@@ -278,10 +331,5 @@ footer i{
     color: white;
     background-color: #0A66C2;
 }
-.intro{
-    background-image: url(/images/dark_dot.jpg);
-}
-.form-cont{
-    background-color: rgba(251, 255, 0, 0.5);;
-}
 /*----------------------- End footer ----------------------*/ 
+
